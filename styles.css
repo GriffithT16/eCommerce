@@ -24,6 +24,7 @@ nav a {
 }
 
 nav ul{
+    display: flex;
     list-style-type: none;
     position: absolute;
     top: 0.7rem;
@@ -33,6 +34,7 @@ nav ul{
 nav li {
     display: inline;
     margin-right: 0.5rem;
+    justify-content: center;
 }
 
 main {
@@ -41,4 +43,8 @@ main {
 }
 .navbar-flexbox {
     display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
