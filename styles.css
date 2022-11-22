@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+nav a {
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    width: 80%;
+}
+.navbar-flexbox {
+    display: flex;
+}
