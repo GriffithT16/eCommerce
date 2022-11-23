@@ -26,9 +26,12 @@ nav a {
 nav ul{
     display: flex;
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     top: 0.7rem;
     right: 1rem;
+    left: 1rem;
+    background-color: antiquewhite;
+    justify-content: flex-start;
 }
 
 nav li {
@@ -47,4 +50,13 @@ main {
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    background-color: beige;
+}
+.picture-container{
+    padding: 3rem;
+    width: 95%;
+}
+.search{
+    justify-content: flex-end;
+    display: flex;
 }
